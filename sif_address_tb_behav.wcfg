@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sif_address_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sif_address_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,244.001 ns"></ZoomEndTime>
+      <Cursor1Time time="476.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="182"></NameColumnWidth>
+      <ValueColumnWidth column_width="213"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/sif_address_tb/clk_i" type="logic">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sif_address_tb/rst_i" type="logic">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sif_address_tb/tx_add_1_i" type="array">
+      <obj_property name="ElementShortName">tx_add_1_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_add_1_i[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sif_address_tb/tx_add_2_i" type="array">
+      <obj_property name="ElementShortName">tx_add_2_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_add_2_i[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sif_address_tb/rx_add_i" type="array">
+      <obj_property name="ElementShortName">rx_add_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_add_i[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sif_address_tb/en_i" type="logic">
+      <obj_property name="ElementShortName">en_i</obj_property>
+      <obj_property name="ObjectShortName">en_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sif_address_tb/mode_i" type="logic">
+      <obj_property name="ElementShortName">mode_i</obj_property>
+      <obj_property name="ObjectShortName">mode_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sif_address_tb/dut/clk_div" type="logic">
+      <obj_property name="ElementShortName">clk_div</obj_property>
+      <obj_property name="ObjectShortName">clk_div</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sif_address_tb/spi_clk_o" type="logic">
+      <obj_property name="ElementShortName">spi_clk_o</obj_property>
+      <obj_property name="ObjectShortName">spi_clk_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sif_address_tb/spi_data_o" type="logic">
+      <obj_property name="ElementShortName">spi_data_o</obj_property>
+      <obj_property name="ObjectShortName">spi_data_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sif_address_tb/done_o" type="logic">
+      <obj_property name="ElementShortName">done_o</obj_property>
+      <obj_property name="ObjectShortName">done_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sif_address_tb/err_o" type="logic">
+      <obj_property name="ElementShortName">err_o</obj_property>
+      <obj_property name="ObjectShortName">err_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sif_address_tb/dut/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sif_address_tb/dut/next" type="array">
+      <obj_property name="ElementShortName">next[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sif_address_tb/spi_reg_mon" type="array">
+      <obj_property name="ElementShortName">spi_reg_mon[11:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_reg_mon[11:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
