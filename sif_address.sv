@@ -38,6 +38,8 @@ module sif_address(
 	logic [11:0]	spi_reg;	
 	assign spi_data_o = spi_reg[0];
 	
+
+	
 	logic [$clog2(12):0]	count;
 	
 	logic error_input, error_reg;
@@ -79,8 +81,10 @@ module sif_address(
 	always_ff @(posedge clk_i) begin
 		if(rst_i)	                      spi_reg   	<= '0;
 		else if(state == Idle)            spi_reg 	    <= {tx_add_1_i, tx_add_2_i, rx_add_i};
-		else if(do_shift)			      spi_reg		<= {0, spi_reg[10:1]};	
+		else if(do_shift)			      spi_reg		<= {spi_reg[0], spi_reg[11:1]};
 	end
+	
+	assign spi_reg_mon = spi_reg;	
 
 	always_ff @(posedge clk_i)
 		if(state == Idle)		count <= '0;
